@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Points of Interest Map</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+</head>
+<body>    
+    <!-- Folium map container -->
+    <div class="map-container" id="foliumMap"></div>
+    
+    <div id="controls" class="controls-container">
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude">
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude">
+        <label for="pointName">Point Name:</label>
+        <input type="text" id="pointName">
+        <button id="addButton">Add Point</button>
+        <button id="saveButton">Save Points</button>
+    </div>
+    
+    <!-- Include JavaScript for map integration -->
+    <script src="script.js"></script>
+</body>
+</html>
+
